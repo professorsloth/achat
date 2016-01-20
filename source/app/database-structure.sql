@@ -1,0 +1,8 @@
+CREATE TABLE `chat_history` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`message` VARCHAR(140) NOT NULL DEFAULT '',
+	`date_created` DATETIME NOT NULL DEFAULT '1970-01-01 00:00:00',
+
+	PRIMARY KEY (`id`)
+);
+

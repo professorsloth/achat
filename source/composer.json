@@ -1,0 +1,11 @@
+{
+	"require": {
+		"php": ">=5.5",
+		"twig/twig": "1.23.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"Achat\\": "app/"
+		}
+	}
+}
